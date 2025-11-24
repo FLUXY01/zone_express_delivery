@@ -8,4 +8,6 @@ class TImages {
   static const String bike = 'assets/images/delivery/motorcycle.png';
   static const String bicycle = 'assets/images/delivery/bicycle.png';
   static const String truck = 'assets/images/delivery/truck.png';
+
+  static const String gift = 'assets/images/rewards/gift.png';
 }

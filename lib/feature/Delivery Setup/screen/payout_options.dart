@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:zone_express_delivery/common/common_button_yellow.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/location_selection.dart';
-import 'package:zone_express_delivery/feature/delivery/widget/payout_option_card.dart';
-
 import '../../../utils/constants/font.dart';
+import '../widget/payout_option_card.dart';
 import '../widget/profile_stepper.dart';
+import 'location_selection.dart';
 
 class PayoutOptions extends StatefulWidget {
   const PayoutOptions({super.key});

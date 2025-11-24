@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:zone_express_delivery/common/common_button_yellow.dart';
-import 'package:zone_express_delivery/feature/delivery/widget/location_card.dart';
-
+import 'package:zone_express_delivery/feature/bottom_nav_screen.dart';
 import '../../../utils/constants/font.dart';
+import '../widget/location_card.dart';
 import '../widget/profile_stepper.dart';
 
 class LocationSelection extends StatefulWidget {
@@ -127,7 +128,12 @@ class _LocationSelectionState extends State<LocationSelection> {
                 padding: const EdgeInsets.all(8.0),
                 child: SizedBox(
                   width: double.infinity,
-                  child: CommonButtonYellow(label: "Next", onPressed: () {}),
+                  child: CommonButtonYellow(
+                    label: "Next",
+                    onPressed: () {
+                      Get.to(() => const BottomNavScreen());
+                    },
+                  ),
                 ),
               ),
             ],

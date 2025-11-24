@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:zone_express_delivery/common/common_button_yellow.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/license_verific_successfull.dart';
-import 'package:zone_express_delivery/feature/delivery/widget/license_textfield.dart';
-import 'package:zone_express_delivery/feature/delivery/widget/profile_stepper.dart';
 import 'package:zone_express_delivery/utils/constants/font.dart';
 import 'package:zone_express_delivery/utils/constants/images.dart';
+
+import '../widget/license_textfield.dart';
+import '../widget/profile_stepper.dart';
+import 'license_verific_successfull.dart';
 
 class LicenseVerification extends StatefulWidget {
   const LicenseVerification({super.key});

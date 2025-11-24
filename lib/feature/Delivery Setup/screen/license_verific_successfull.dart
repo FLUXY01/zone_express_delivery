@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:zone_express_delivery/common/common_button_yellow.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/vehicle_options.dart';
-
+import 'package:zone_express_delivery/feature/Delivery%20Setup/screen/vehicle_options.dart';
 import '../../../utils/constants/font.dart';
 import '../widget/profile_stepper.dart';
 

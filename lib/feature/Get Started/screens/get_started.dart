@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:zone_express_delivery/feature/Get%20Started/widget/executive_card.dart';
 import 'package:zone_express_delivery/feature/Get%20Started/widget/referal_card.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/license_verification.dart';
 import '../../../utils/constants/font.dart';
+import '../../Delivery Setup/screen/license_verification.dart';
 import '../../referal/screen/referal_signup.dart';
 
 class GetStarted extends StatefulWidget {

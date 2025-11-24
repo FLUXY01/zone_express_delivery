@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:zone_express_delivery/common/common_button_yellow.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/payout_options.dart';
-import 'package:zone_express_delivery/feature/delivery/widget/vehicle_options_card.dart';
+import 'package:zone_express_delivery/feature/Delivery%20Setup/screen/payout_options.dart';
 import 'package:zone_express_delivery/utils/constants/images.dart';
 import '../../../utils/constants/font.dart';
 import '../widget/profile_stepper.dart';
+import '../widget/vehicle_options_card.dart';
 
 class VehicleOptions extends StatefulWidget {
   const VehicleOptions({super.key});

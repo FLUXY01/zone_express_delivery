@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zone_express_delivery/feature/delivery/screen/license_verification.dart';
 import 'package:zone_express_delivery/feature/referal/screen/support_other_form.dart';
 import 'package:zone_express_delivery/feature/referal/widget/dashboard_card.dart';
 import 'package:zone_express_delivery/feature/referal/widget/delivery_card.dart';
 import 'package:zone_express_delivery/feature/referal/widget/earn_card.dart';
 import 'package:zone_express_delivery/utils/constants/font.dart';
 import 'package:zone_express_delivery/feature/referal/widget/referal_drawer.dart';
+
+import '../../Delivery Setup/screen/license_verification.dart';
 
 class ReferalDashboard extends StatefulWidget {
   const ReferalDashboard({super.key});
